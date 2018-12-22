@@ -1,4 +1,4 @@
-package pl.dmcs.demo;
+package pl.dmcs.cache;
 
 import pl.dmcs.utils.Generator;
 import pl.dmcs.utils.IStopWatch;
@@ -56,7 +56,7 @@ public class FileAccessDemo {
     public static void generateAndRun() {
         IStopWatch stopWatch = new StopWatch();
         Generator generator = new Generator();
-        generator.generate(fileName, 55655);
+        generator.generate(fileName, 556555);
         generateExcTimes.add(stopWatch.stop());
 
         Reader reader = new Reader(fileName);
