@@ -1,2 +1,2 @@
-# PTOiSH
-# PTOiSH
+# Optimization and scaling techniques
+Java exercises.
